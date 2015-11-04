@@ -1,0 +1,27 @@
+{
+  "name": "blog-wp-theme",
+  "version": "0.0.1",
+  "description": "GiftStarter Blog design starting November 2015",
+  "main": "Gruntfile.js",
+  "dependencies": {
+    "grunt": "~0.4.2"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "grunt-contrib-less": "~0.8.3",
+    "grunt-contrib-uglify": "~0.2.7",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt-contrib-cssmin": "~0.7.0",
+    "grunt-phpunit": "~0.3.1",
+    "grunt-bump": "~0.6.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:giftstarter/blog-wp-theme.git"
+  },
+  "author": "",
+  "license": "MIT License"
+}
