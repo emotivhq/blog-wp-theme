@@ -38,10 +38,10 @@
 
 	<nav id="nav-wrap" role="navigation">
 		<ul class="top-nav">
-			<li><a href="http://giftstarterapp.com">giftstarter</a></li>
-			<li><a class="rollover social" href="http://blog.giftstarterapp.com">Social</a></li>
-			<li><a class="rollover open" href="http://open.giftstarterapp.com">Open</a></li>
-			<li class="current"><a class="rollover overflow" href="http://overflow.giftstarterapp.com">Overflow</a></li>
+			<li><a href="http://giftstarter.com">GiftStarter</a></li>
+			<li><a class="rollover social" href="http://blog.giftstarter.com">Social</a></li>
+			<li><a class="rollover open" href="http://open.giftstarter.com">Open</a></li>
+			<li class="current"><a class="rollover overflow" href="http://overflow.giftstarter.com">Overflow</a></li>
 			<li><a class="rollover happiness" >Happiness</a></li>
 		</ul>
 	</nav><!-- #navigation -->
@@ -54,7 +54,7 @@
 			<div class="tagline"><?php bloginfo( 'description' ); ?></div>
 		</div>
 
-		<div class="header-sign-up">giftstarter makes managing social media fun and easy. <a href="http://giftstarterapp.com/">Sign Up. It’s Free.</a></div>
+		<div class="header-sign-up">GiftStarter makes group gifting fun and easy. <a href="http://giftstarter.com/">Sign Up. It’s Free.</a></div>
 
 	</header><!-- #masthead -->
 
