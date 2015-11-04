@@ -6,11 +6,11 @@ grunt.initConfig({
 		
   bump: {
     options: {
-      files: ['package.json', 'giftstarter/style.css'],
+      files: ['package.json', 'style.css'],
       updateConfigs: [],
       commit: true,
       commitMessage: 'Release v%VERSION%',
-      commitFiles: ['package.json', 'giftstarter/style.css'],
+      commitFiles: ['package.json', 'style.css'],
       createTag: true,
       tagName: 'v%VERSION%',
       tagMessage: 'Version %VERSION%',
