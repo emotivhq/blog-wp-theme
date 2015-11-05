@@ -1,7 +1,7 @@
 /*
 
 Theme Name: GiftStarter
-Version: 0.0.2
+Version: 0.0.5
 Author: Emotiv Labs, Inc.
 Designer: Tyler Goelz & Joel Serino
 Author URI: http://giftstarter.com/about/
@@ -400,7 +400,7 @@ big {
 }
 
 .top-nav li:first-child a:after {
-	content: "app.com";
+	content: ".com";
 	position: absolute;
 	top: 3px;
 	opacity: 0;

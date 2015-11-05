@@ -1,6 +1,6 @@
 {
   "name": "blog-wp-theme",
-  "version": "0.0.2",
+  "version": "0.0.5",
   "description": "GiftStarter Blog design starting November 2015",
   "main": "Gruntfile.js",
   "dependencies": {
