@@ -448,7 +448,7 @@ a.rollover:hover:after {
 }
 
 a.social:after {
-	content: "Group Giftng";
+	content: "Group Gifting";
 }
 
 a.open:after {
@@ -496,7 +496,7 @@ a.joy:after {
 	background: url(images/giftstarter-logotype.png) no-repeat;
 	background-size: 100%;
 	display: inline-block;
-	height: 28px;
+	height: 20px;
 	margin-bottom: -1px;
 	width: 106px;
 }

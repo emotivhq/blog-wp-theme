@@ -14,7 +14,7 @@
 get_header(); ?>
 
   <div class="newsletter-cta">
-    <h1 class="newsletter-cta-h1">Fresh advice of bringing joy to others. Delivered weekly.</h1>
+    <h1 class="newsletter-cta-h1">Fresh advice on bringing joy to others. Delivered weekly.</h1>
     <h2 class="newsletter-cta-h2">Join 4,356 good-looking folks who get our latest content first :)</h2>
     <form class="newsletter-cta-form">
       <input class="newsletter-cta-input" type="email" placeholder="Email Address"><button class="newsletter-cta-button" alt="Subscribe" type="submit"></button>
