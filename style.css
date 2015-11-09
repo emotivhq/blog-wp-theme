@@ -1,7 +1,7 @@
 /*
 
 Theme Name: GiftStarter
-Version: 0.0.7
+Version: 0.0.8
 Author: Emotiv Labs, Inc.
 Designer: Tyler Goelz & Joel Serino
 Author URI: http://giftstarter.com/about/
@@ -448,7 +448,7 @@ a.rollover:hover:after {
 }
 
 a.social:after {
-	content: "Social Media";
+	content: "Group Giftng";
 }
 
 a.open:after {
@@ -459,7 +459,7 @@ a.overflow:after {
 	content: "Engineering";
 }
 
-a.happiness:after {
+a.joy:after {
 	content: "Coming Soon";
 	font-style: italic;
 }
@@ -561,7 +561,7 @@ a[rel="home overflow"]:hover {
 	color: #ee4f4f;
 }
 
-a[rel="home happiness"]:hover {
+a[rel="home joy"]:hover {
 	color: #efc941;
 }
 
@@ -985,7 +985,7 @@ a[rel="tag"] {
 	background: -webkit-linear-gradient(top, #009c95 0, #00B5AD 100%);
 	background: linear-gradient(top,#009c95 0,#00B5AD 100%);
 	border-radius: 3px;
-	border: 1px solid #137dcf;
+	border: 1px solid #599B94;
 	box-shadow: inset 0 1px 0 rgba(255,255,255,.07);
 	-webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,.07);
 	color: #fff;
@@ -1001,12 +1001,12 @@ a[rel="tag"] {
 }
 
 .footer-signup:hover {
-	background: #2d99ec;
-	background: -webkit-gradient(linear,left top,left bottom,color-stop(0%,#83C9B7),color-stop(100%,#599B94));
-	background: -webkit-linear-gradient(top,#83C9B7 0,#599B94 100%);
-	background: -webkit-gradient(linear,left top,left bottom,from(#83C9B7),to(#599B94));
-	background: -webkit-linear-gradient(top, #83C9B7 0, #599B94 100%);
-	background: linear-gradient(top,#83C9B7 0,#599B94 100%);
+	background: #009c95;
+	background: -webkit-gradient(linear,left top,left bottom,color-stop(0%,#009c95),color-stop(100%,#599B94));
+	background: -webkit-linear-gradient(top,#009c95 0,#599B94 100%);
+	background: -webkit-gradient(linear,left top,left bottom,from(#009c95),to(#599B94));
+	background: -webkit-linear-gradient(top, #009c95 0, #599B94 100%);
+	background: linear-gradient(top,#009c95 0,#599B94 100%);
 	text-decoration: none;
 }
 
