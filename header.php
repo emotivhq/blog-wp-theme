@@ -12,7 +12,7 @@
 <html <?php language_attributes(); ?>>
 <head>
 
-	<title>giftstarter <?php wp_title( '|', true, 'left' ); ?></title>
+	<title>GiftStarter <?php wp_title( '|', true, 'left' ); ?></title>
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
 
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -38,11 +38,11 @@
 
 	<nav id="nav-wrap" role="navigation">
 		<ul class="top-nav">
-			<li><a href="http://giftstarter.com">GiftStarter</a></li>
-			<li><a class="rollover social" href="http://blog.giftstarter.com">Social</a></li>
+			<li class="current"><a href="http://giftstarter.com">GiftStarter</a></li>
+			<li><a class="rollover social" href="http://blog.giftstarter.com">Giving</a></li>
 			<li><a class="rollover open" href="http://open.giftstarter.com">Open</a></li>
-			<li class="current"><a class="rollover overflow" href="http://overflow.giftstarter.com">Overflow</a></li>
-			<li><a class="rollover happiness" >Happiness</a></li>
+			<li><a class="rollover overflow" href="http://overflow.giftstarter.com">Overflow</a></li>
+			<li><a class="rollover joy hidden" >Joy</a></li>
 		</ul>
 	</nav><!-- #navigation -->
 
