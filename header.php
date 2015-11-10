@@ -54,7 +54,9 @@
 			<div class="tagline"><?php bloginfo( 'description' ); ?></div>
 		</div>
 
-		<div class="header-sign-up">GiftStarter makes group gifting fun and easy. <a href="http://giftstarter.com/">Sign Up. It’s Free.</a></div>
+		<div class="header-sign-up">GiftStarter makes group gifting fun and easy. 
+			<a href="http://giftstarter.com/">Sign Up. It’s Free.</a>
+		</div>
 
 	</header><!-- #masthead -->
 

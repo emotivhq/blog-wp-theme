@@ -15,9 +15,10 @@ get_header(); ?>
 
   <div class="newsletter-cta">
     <h1 class="newsletter-cta-h1">Fresh advice on bringing joy to others. Delivered weekly.</h1>
-    <h2 class="newsletter-cta-h2">Join 4,356 good-looking folks who get our latest content first :)</h2>
+    <h2 class="newsletter-cta-h2">Join 3,262 good-looking folks who get our latest content first :)</h2>
     <form class="newsletter-cta-form">
-      <input class="newsletter-cta-input" type="email" placeholder="Email Address"><button class="newsletter-cta-button" alt="Subscribe" type="submit"></button>
+      <input class="newsletter-cta-input" type="email" placeholder="Email Address">
+		<button class="newsletter-cta-button" alt="Subscribe" type="submit"></button>
       <div class="newsletter-cta-caption">And don’t worry, we hate spam too! You can unsubscribe at anytime.</div>
     </form>
 

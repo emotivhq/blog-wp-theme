@@ -637,13 +637,16 @@ a[rel="home joy"]:hover {
 }
 
 .featured-image {
-	width: 100%;
-	overflow: hidden;
-	position: absolute;
-	top: 0;
-	left: 0;
-	height: 14rem;
-	z-index: 10;
+    background-size: cover;
+    background-position: center;
+    border-radius: 3px 3px 0 0;
+    width: 100%;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 224px;
+    z-index: 10;
 }
 
 .wp-post-image {
