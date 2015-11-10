@@ -52,6 +52,5 @@ get_header(); ?>
 		</main><!-- #main -->
 	</div><!-- #primary -->
 
-<?php giftstarter_paging_nav(); ?>
 
 <?php get_footer(); ?>

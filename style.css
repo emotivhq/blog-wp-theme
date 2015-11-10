@@ -11,7 +11,7 @@ License: (C)2015 Emotiv Labs Inc.
 Text Domain: blog.giftstarter.com
 Domain Path: /
 
-giftstarter v2 uses Underscores http://underscores.me/, (C) 2012-2014 Automattic, Inc.
+GiftStarter v2 uses Underscores http://underscores.me/, (C) 2012-2014 Automattic, Inc.
 
 Resetting and rebuilding styles have been helped along thanks to the fine work
 of Eric Meyer http://meyerweb.com/eric/tools/css/reset/index.html along with Nicolas
@@ -39,7 +39,7 @@ http://www.blueprintcss.org/
 15.0 - Module - Author Bio
 16.0 - Module - Page/Post Navigation
 17.0 - Module - Newsletter CTA
-18.0 - Module - About GiftStarter Footer
+18.0 - Module - Blog Footer
 19.0 - Overrides - Hello Bar
 20.0 - Overrides - DiggDigg
 
@@ -148,7 +148,8 @@ a:focus {
 a:hover,
 a:active {
 	outline: 0;
-	text-decoration: underline;
+	text-decoration: none;
+	border-bottom: 2px solid #00B5AD;
 }
 
 /*-----------------------------
@@ -491,7 +492,21 @@ a.joy:after {
 	margin: 5% 0 6%;
 	position: relative;
 }
-
+#masthead:before {
+    content: "♥ ";
+/*    content: "← "; */
+    font-size: 16px;
+    opacity: 0;
+    position: absolute;
+    left: -5px;
+    top: 10px;
+    -webkit-transition: opacity 200ms ease, left 200ms ease-in-out;
+    transition: opacity 200ms ease, left 200ms ease-in-out;
+}
+#masthead:hover:before {
+    left: -30px;
+    opacity: 1;
+}
 .logotype {
 	background: url(images/giftstarter-logotype.png) no-repeat;
 	background-size: 100%;
@@ -519,7 +534,7 @@ a.joy:after {
 	color: #8B959E;
 	font-size: 12px;
 	font: italic 400 0.75rem/1 "Open Sans";
-	margin-top: 5px;
+	margin-top: 8.5px;
 	opacity: 0.75;
 }
 
@@ -696,6 +711,7 @@ article {
 	margin-bottom: 2rem;
 	padding: 40px 10%;
 	position: relative;
+	border-radius: 3px;
 }
 
 .entry-content img {
@@ -964,7 +980,7 @@ a[rel="tag"] {
 
 
 /*-----------------------------
-	18.0 - Module - About giftstarter Footer
+	18.0 - Module - Blog Footer
 -----------------------------*/
 
 .about-giftstarter {
@@ -1035,6 +1051,79 @@ a[rel="tag"] {
 		padding: 3rem 1rem 1rem;
 	}
 
+}
+
+/*-----------------------------
+	No-Results Page
+-----------------------------*/
+
+.no-results,
+.error-404 {
+	height: 100%;
+	display: block;
+	margin: 0 5%;
+}
+
+.no-results-header {
+	text-align: center;
+	padding-top: 50px;
+	margin-bottom: 5px;
+}
+
+.no-results-cta {
+	font-size: 18px;
+	text-align: center;
+	font-style: italic;
+}
+
+.footer-links {
+	position: relative;
+	clear: both;
+	padding: 60px 0 0;
+	text-align: center;
+	color: #999;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.footer-links ul {
+	padding-left: 0;
+	font-family: "Open Sans", sans-serif;
+	font-size: 13px;
+}
+
+.footer-links li {
+	display: inline;
+	list-style-type: none;
+	margin: 0 10px;
+}
+
+.footer-links a {
+	color: #8b959e;
+	padding: 5px;
+	cursor: pointer;
+	font-family: "Open Sans", sans-serif;
+	font-size: 13px;
+}
+
+.footer-links a:hover {
+	color: #667079;
+	text-decoration: underline;
+}
+
+.footer-links img {
+	opacity: .3;
+}
+
+.footer-links .row {
+	margin-bottom: 0;
+	margin-top: 0;
+	border-top: 0;
+	padding: 10px 0;
+}
+
+.footer-links .row.more-footer {
+	display: none;
 }
 
 /*-----------------------------
