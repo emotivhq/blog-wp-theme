@@ -13,9 +13,11 @@
   <div class="newsletter-cta">
     <h1 class="newsletter-cta-h1">Fresh advice on bringing joy to others. Delivered weekly.</h1>
     <h2 class="newsletter-cta-h2">Join 3,262 good-looking folks who get our latest content first :)</h2>
-    <form class="newsletter-cta-form">
-      <input class="newsletter-cta-input" type="email" placeholder="Email Address"><button class="newsletter-cta-button" alt="Subscribe" type="submit"></button>
-      <div class="newsletter-cta-caption">And don’t worry, we hate spam too! You can unsubscribe at anytime.</div>
+    <form class="newsletter-cta-form" action="//giftstarter.us8.list-manage.com/subscribe/post?u=9d503578c402cdc6d3fa96dd7&amp;id=f208e541be" method="post" id="mc-embedded-subscribe-form-footer" name="mc-embedded-subscribe-form-footer" class="validate" target="_blank" novalidate>
+    	<input class="newsletter-cta-input" type="email" placeholder="Email Address" id="mce-EMAIL">
+		<button class="newsletter-cta-button" alt="Subscribe" type="submit"></button>
+    	<div class="newsletter-cta-caption">And don’t worry, we hate spam too! You can unsubscribe at anytime.</div>
+		<div style="position: absolute; left: -5000px;"><input type="text" name="b_9d503578c402cdc6d3fa96dd7_f208e541be" tabindex="-1" value=""></div>
     </form>
 
   </div>
