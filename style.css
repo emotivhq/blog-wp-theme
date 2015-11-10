@@ -656,7 +656,7 @@ a.joy:after {
 }
 
 .search-submit {
-	background: #323B43 url(images/search-icon.png) no-repeat center;
+	/* background: #323B43 url(images/search-icon.png) no-repeat center; */
 	background-size: 16px;
 	border-radius: 0 3px 3px 0;
 	cursor: pointer;
@@ -718,6 +718,7 @@ a[rel="home joy"]:hover {
 	font-size: 1rem;
 	text-transform: uppercase;
 	letter-spacing: 2px;
+	border-radius: 3px;
 }
 
 .page-title:before {

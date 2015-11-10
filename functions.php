@@ -87,9 +87,14 @@ add_action( 'widgets_init', 'giftstarter_widgets_init' );
  * Enqueue scripts and styles.
  */
 function giftstarter_scripts() {
-	wp_enqueue_style( 'giftstarter-style', get_stylesheet_uri() );
+	
+	wp_enqueue_style( 'semantic-ui-css', '//www.giftstarter.com/ui/ui.min.css' );
 
+	wp_enqueue_style( 'giftstarter-style', get_stylesheet_uri() );
+	
 	wp_enqueue_script( 'jquery', '//ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js', array(), '20151103', true );
+
+	wp_enqueue_script( 'semantic-ui-js', '//www.giftstarter.com/ui/ui.min.js', array(), '20151109', true );
 
 	wp_enqueue_script( 'giftstarter-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151104', true );
 
