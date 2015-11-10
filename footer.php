@@ -40,19 +40,19 @@
 		<div class="row">
 			<li><a href="https://giftstarter.com/is?utm_campaign=footer">How It Works</a></li>
 			<li><a href="https://giftstarter.com/join?utm_campaign=footer">Get Started</a></li>
-			<li><a href="mailto:concierge@giftstarter.com">Gift Concierge</a></li>
 			<li><a href="https://giftstarter.com/faq">FAQ</a></li>
 			<li><a href="https://giftstarter.com/about">About</a></li>
 			<li><a href="https://blog.giftstarter.com">Blog</a></li>
-			<li><a href="https://open.buffer.com">GiftStarter Culture</a></li>
+			<li><a href="https://open.giftstarter.com">GiftStarter Culture</a></li>
+			<li><a href="https://io.giftstarter.com">Engineering</a></li>
 			<li><a href="https://blog.giftstarter.com/join-the-giftstarter-journey">Jobs</a></li>
-			<li><a class="expand-footer" style="opacity: 0;">More...</a></li>
+			<li><a class="expand-footer">More...</a></li>
 		 </div>
 
-		 <div class="row more-footer" style="display: block;">
+		 <div class="row more-footer">
 		 	<li><a href="https://giftstarter.com/login">Login</a></li>
 		 	<li><a href="https://giftstarter.com/discover">Discover Ideas</a></li>
-			<li><a href="https://giftstarter.com/conceierge">Get Help</a></li>
+			<li><a href="https://giftstarter.com/concierge">Get Help</a></li>
 			<li><a href="https://giftstarter.com/press">Press</a></li>
 			<li><a href="https://giftstarter.com/patners">Partners</a></li>
 			<li><a href="#">Feedback</a></li>

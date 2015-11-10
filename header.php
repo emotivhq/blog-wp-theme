@@ -39,11 +39,15 @@
 	<nav id="nav-wrap" role="navigation">
 		<ul class="top-nav">
 			<li class="current"><a href="http://giftstarter.com">GiftStarter</a></li>
-			<li><a class="rollover social" href="http://blog.giftstarter.com">Giving</a></li>
-			<li><a class="rollover open" href="http://open.giftstarter.com">Seeing</a></li>
-			<li><a class="rollover overflow" href="http://overflow.giftstarter.com">Believing</a></li>
+			<li><a class="rollover giving" href="http://blog.giftstarter.com">Giving</a></li>
+			<li><a class="rollover open" href="http://open.giftstarter.com">Open</a></li>
+			<li><a class="rollover io" href="http://io.giftstarter.com">Input/Ouput</a></li>
 			<li><a class="rollover joy hidden" >Joy</a></li>
 		</ul>
+		<form class="search-nav-form" role="search" method="get" action="https://blog.giftstarter.com">
+  			<input class="search-nav-field" type="search" placeholder="Search" value="" name="s" title="Search:">
+  			<input class="search-nav-submit" type="submit" value=" ">
+		</form>
 	</nav><!-- #navigation -->
 
 <div id="page" class="hfeed site">
