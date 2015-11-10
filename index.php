@@ -30,17 +30,18 @@ get_header(); ?>
   <h2 class="newsletter-cta-large-h2">Our simple concierge service can save you hours of hand crafted giving goodness!</h2>
 
   <div class="newsletter-cta-large-list-wrap">
-    <h5>SIGN IN AND CHECK OUT OUR:</h5>
+    <h5>OR, SIGN IN AND CHECK OUT OUR:</h5>
     <ul class="newsletter-cta-large-list">
-        <li>Personable gift concierge</li>
+        <li>Easy to use gift ideas</li>
 		<li>One-click gift campaign creation</li>
-		<li>Socil tools that help you improve gift completion</li>    
+		<li>Social tools that help you bring friends & family together</li>    
 	</ul>
   </div>
 
   <div class="main-heading-cta">
+	<a href='https://gifstarter.com/concierge?utm_source=blog&utm_medium=giving&utm_campaign=cta-large' class='large teal button'>Contact our Gift Concierge right now!</a>
+	<a href='https://gifstarter.com/join?utm_source=blog&utm_medium=giving&utm_campaign=cta-large' class='large yellow button'>Join Today</a>
     <!--iframe src="https://www.gifstarter.com/signin_iframe?utm_campaign=cta_direct_signin-blog" width="680" height="94" scrolling="no" style="overflow:hidden" id="iframe-signin"></iframe-->
-	<a href='https://gifstarter.com/?utm_source=blog&utm_medium=social&utm_campaign=main-header' class='large teal button'>Contact our Gift Concierge right now!</a>
   </div>
 </div>
 
