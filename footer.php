@@ -57,7 +57,6 @@
 	 </ul>
 </footer>
 
-<span class="copyright">©2015 Emotiv Labs, Inc.</span>
 
 </body>
 </html>

@@ -89,9 +89,11 @@ add_action( 'widgets_init', 'giftstarter_widgets_init' );
 function giftstarter_scripts() {
 	wp_enqueue_style( 'giftstarter-style', get_stylesheet_uri() );
 
-	wp_enqueue_script( 'giftstarter-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20120206', true );
+	wp_enqueue_script( 'giftstarter-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151104', true );
 
-	wp_enqueue_script( 'giftstarter-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20130115', true );
+	wp_enqueue_script( 'giftstarter-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20151105', true );
+
+	wp_enqueue_script( 'giftstarter-ui', get_template_directory_uri() . '/js/ui.js', array(), '20151106', true );
 
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );

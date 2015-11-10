@@ -148,8 +148,11 @@ a:focus {
 a:hover,
 a:active {
 	outline: 0;
-	text-decoration: none;
-	border-bottom: 2px solid #00B5AD;
+	text-decoration: underline;
+}
+
+.hidden {
+	display: none !important;
 }
 
 /*-----------------------------
@@ -158,7 +161,7 @@ a:active {
 
 #page {
 	max-width: 750px;
-	margin: 0 auto 10rem auto;
+	margin: 0 auto;
 }
 
 /*-----------------------------
@@ -502,6 +505,7 @@ a.joy:after {
     top: 10px;
     -webkit-transition: opacity 200ms ease, left 200ms ease-in-out;
     transition: opacity 200ms ease, left 200ms ease-in-out;
+	color: #DB2828;
 }
 #masthead:hover:before {
     left: -30px;
