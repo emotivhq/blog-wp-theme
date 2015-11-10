@@ -17,7 +17,10 @@
     	<input class="newsletter-cta-input" type="email" placeholder="Email Address" id="mce-EMAIL">
 		<button class="newsletter-cta-button" alt="Subscribe" type="submit"></button>
     	<div class="newsletter-cta-caption">And don’t worry, we hate spam too! You can unsubscribe at anytime.</div>
-		<div style="position: absolute; left: -5000px;"><input type="text" name="b_9d503578c402cdc6d3fa96dd7_f208e541be" tabindex="-1" value=""></div>
+		<div style="position: absolute; left: -5000px;">
+			<input type="checkbox" id="group_8" name="group[18233][8]" value="1" checked="checked" class="av-checkbox">
+			<input type="text" name="b_9d503578c402cdc6d3fa96dd7_f208e541be" tabindex="-1" value="">
+		</div>
     </form>
 
   </div>
@@ -62,3 +65,8 @@
 
 </body>
 </html>
+
+
+
+
+
