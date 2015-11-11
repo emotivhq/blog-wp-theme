@@ -1,0 +1,173 @@
+
+#scrolltriggered{
+	width: 450px; 
+	right: 10px; 
+	display: block; 
+		
+	background: #FFFFFF;
+	box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.10), 
+				0px 2px 4px 0px  rgba(0,0,0,0.20);
+	
+	border-radius: 8px 8px 0px 0px;
+	margin-right: 20px;
+	margin-top: 20px;
+	margin-bottom: -10px;
+
+	display: none;
+	position: fixed;
+	z-index: 1000;
+	bottom: -200px;
+	
+}
+
+#inscroll .section{
+}
+
+#inscroll .divider{
+	border-top: 1px solid #EFF1F2;
+}
+
+#inscroll .stb_social{
+	display: none;
+}
+
+#inscroll .section-top{
+	padding: 24px 24px 0px 24px;
+}
+
+
+#inscroll .section-bottom{
+	padding: 16px 24px 16px 24px;
+	overflow: auto;
+}
+
+#inscroll h5{
+	font-family: OpenSans,sans-serif;
+	font-weight: 100;
+	font-size:24px;
+	color: #333333;
+	line-height: 32px;
+	display: inline;
+	text-transform: initial;
+    letter-spacing: 0px;
+}
+
+
+#inscroll ul{
+	list-style-type:none;
+	overflow: auto;
+	padding: 0px;
+	margin-left: -20px;
+	margin-bottom: 0px;
+	margin-top: 8px;
+}
+
+#inscroll ul li{
+	margin-left: 0px;
+}
+
+#inscroll a:link, #inscroll a:visited, #inscroll a:hover, #inscroll a:active{
+	font-family: OpenSans,sans-serif;
+	font-size: 13px;
+	color: #168EEA;
+	line-height: 18px;
+	text-decoration: none;
+}
+
+#inscroll a:hover, #inscroll a:active{
+	text-decoration: underline;
+}
+
+#inscroll a.secundary-action{
+	float: left;
+	margin-top: 12px;
+}
+
+#inscroll a.giftstarter-button-large{
+	background: #00B5AD;
+	border: 1px solid rgba(0,0,0,0.25);
+	border-radius: 24px;
+	font-family: OpenSans,sans-serif;
+	font-size: 14px;
+	color: #FFFFFF;
+	line-height: 20px;
+	text-decoration: none;
+	font-weight: 100;
+	
+	padding: 10px 16px;
+	display: block;
+	float: right;
+}
+
+#inscroll a.giftstarter-button-large:hover{
+	background: #009c95;
+	text-decoration: none;
+	transition: background 0.25s ease-out;
+}
+
+#inscroll ul li {
+	width: 140px;
+	float: left;
+	font-family: OpenSans,sans-serif;
+	font-size: 13px;
+	color: #999999;
+	line-height: 18px;
+	font-weight: 100;
+	padding-left: 20px;
+	padding-top: 16px;
+	padding-bottom: 8px;
+}
+
+#inscroll ul li span{
+	font-weight: 700;
+	display: block;
+	color: #333;
+}
+
+.giftstarter-logo-mark{
+	width: 23px;
+	height: 24px;
+	display: block;
+	
+	/*background: url('../images/giftstarter-logo-mark@2x.png');*/
+	background-size: 100% 100%;
+	
+	background: url('../images/giftstarter-logo-mark.svg');
+}
+
+#inscroll .giftstarter-logo-mark{
+	margin-bottom: 16px;
+}
+
+#closebox{
+	width: 36px;
+	height: 36px;
+	display: block;
+	float: right;
+	position: relative;
+	top: -11px;
+	right: -11px;
+	
+	background: url('../images/close@2x.png');
+	background-size: 36px 36px;
+
+	background: url('../images/close.svg');
+	
+	text-indent: -9999px;
+	transition: background 0.10s ease-out;
+	border: none !important;
+}
+
+#closebox:hover{
+	
+	background: url('../images/close-hover@2x.png');
+	background-size: 36px 36px;
+
+	background: url('../images/close-hover.svg');
+	
+	float: right;
+	position: relative;
+	top: -11px;
+	right: -11px;
+
+}

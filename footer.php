@@ -27,8 +27,8 @@
 
 	<footer class="about-giftstarter footer" role="contentinfo">
     <p class="about-blurb">GiftStarter helps you afford anything online. Quickly and easily find an amazing gift, share with friends and family members, and help bring joy to those you love.</p>
-    <a class="footer-signup" href="http://giftstarter.com/join">Sign Up. It's Free.</a>
-    <a class="footer-learn-more" href="http://giftstarter.com/is">or Learn More</a>
+    <a class="footer-signup" href="http://giftstarter.com/join?utm_source=blog&utm_medium=giving&utm_campaign=cta-footer">Sign Up. It's Free.</a>
+    <a class="footer-learn-more" href="http://giftstarter.com/is?utm_source=blog&utm_medium=giving&utm_campaign=cta-footer">or Learn More</a>
 
 	</footer><!-- #colophon -->
 </div><!-- #page -->

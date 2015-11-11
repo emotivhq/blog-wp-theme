@@ -44,6 +44,12 @@ http://www.blueprintcss.org/
 19.0 - Overrides - Hello Bar
 20.0 - Overrides - DiggDigg
 
+*/
+
+
+@import url("./styles/slideup.css");
+
+
 /*-----------------------------
 	0.0 - Animations
 -----------------------------*/
@@ -1150,8 +1156,8 @@ a[rel="tag"] {
 	height: auto;
 	margin-bottom: 32px;
 	padding: 32px 5% 40px 5%;
-	-webkit-animation: nod 3s 15s ease-in-out;
-	animation: nod 3s 15s ease-in-out;
+	-webkit-animation: nod 3s 9s ease-in-out;
+	animation: nod 3s 9s ease-in-out;
 }
 
 .newsletter-cta-large-h1,
