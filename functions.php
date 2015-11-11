@@ -66,7 +66,7 @@ endif; // giftstarter_setup
 add_action( 'after_setup_theme', 'giftstarter_setup' );
 
 /**
- * Register widget area.
+ * Register widget areas.
  *
  * @link http://codex.wordpress.org/Function_Reference/register_sidebar
  */
@@ -79,6 +79,11 @@ function giftstarter_widgets_init() {
 		'after_widget'  => '</aside>',
 		'before_title'  => '<h1 class="widget-title">',
 		'after_title'   => '</h1>',
+	) );
+	register_sidebar( array(
+		'name'          => __( 'Main CTA', 'giftstarter' ),
+		'id'            => 'sidebar-2',
+		'description'   => ''
 	) );
 }
 add_action( 'widgets_init', 'giftstarter_widgets_init' );

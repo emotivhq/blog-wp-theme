@@ -13,37 +13,7 @@
 
 get_header(); ?>
 
-	<div class="newsletter-cta hidden">
-    <h1 class="newsletter-cta-h1">Fresh advice on bringing joy to others. Delivered weekly.</h1>
-    <h2 class="newsletter-cta-h2">Join 3,262 good-looking folks who get our latest content first :)</h2>
-    <form class="newsletter-cta-form" action="//giftstarter.us8.list-manage.com/subscribe/post?u=9d503578c402cdc6d3fa96dd7&amp;id=f208e541be" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-    	<input class="newsletter-cta-input" type="email" placeholder="Email Address" id="mce-EMAIL">
-		<button class="newsletter-cta-button" alt="Subscribe" type="submit"></button>
-    	<div class="newsletter-cta-caption">And don’t worry, we hate spam too! You can unsubscribe at anytime.</div>
-		<div style="position: absolute; left: -5000px;"><input type="text" name="b_9d503578c402cdc6d3fa96dd7_f208e541be" tabindex="-1" value=""></div>
-    </form>
-
-  </div>
-
-<div class="newsletter-cta-large">
-  <h1 class="newsletter-cta-large-h1">Can we give you a hand with giving?</h1>
-  <h2 class="newsletter-cta-large-h2">Our simple concierge service can save you hours of hand crafted giving goodness!</h2>
-
-  <div class="newsletter-cta-large-list-wrap">
-    <h5>OR, SIGN IN AND CHECK OUT OUR:</h5>
-    <ul class="newsletter-cta-large-list">
-        <li>Easy to use gift ideas</li>
-		<li>One-click gift campaign creation</li>
-		<li>Social tools that help you bring friends & family together</li>    
-	</ul>
-  </div>
-
-  <div class="main-heading-cta">
-	<a href='https://gifstarter.com/concierge?utm_source=blog&utm_medium=giving&utm_campaign=cta-large' class='large teal button'>Contact our Gift Concierge right now!</a>
-	<a href='https://gifstarter.com/join?utm_source=blog&utm_medium=giving&utm_campaign=cta-large' class='large yellow button'>Join Today</a>
-    <!--iframe src="https://www.gifstarter.com/signin_iframe?utm_campaign=cta_direct_signin-blog" width="680" height="94" scrolling="no" style="overflow:hidden" id="iframe-signin"></iframe-->
-  </div>
-</div>
+	<?php get_template_part( 'main-cta-widget-area' ); ?>
 
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
