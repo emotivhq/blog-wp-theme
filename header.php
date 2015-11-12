@@ -50,7 +50,7 @@
 		</form>
 	</nav><!-- #navigation -->
 
-<div id="page" class="hfeed site">
+<div id="page" class="hfeed site <?php bloginfo( 'name' ); ?>">
 
 	<header id="masthead" class="site-header" role="banner <?php bloginfo( 'name' ); ?>">
 		<div class="site-branding">

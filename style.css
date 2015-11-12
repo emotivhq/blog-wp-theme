@@ -611,15 +611,15 @@ a.joy:after {
 	color: #DB2828;
 }
 
-header[role="banner open"]:before {
+.site.open #masthead:before {
 	color: #A333C8;
 	content: "☯ ";
 }
-header[role="banner i/o"]:before {
+.site.i/o #masthead:before {
 	color: #DB2828;
 	content: "ƒ ";
 }
-header[role="banner joy"]:before {
+.site.joy #masthead:before {
 	color: #FBBD08;
 	content: "☺ ";
 }
@@ -1400,7 +1400,6 @@ a[rel="tag"] {
 	background: -webkit-linear-gradient(top, #009c95 0, #00B5AD 100%);
 	background: linear-gradient(top,#009c95 0,#00B5AD 100%); */
 	border-radius: 3px;
-	border: 1px solid #00B5AD;
 	box-shadow: inset 0 1px 0 rgba(255,255,255,.07);
 	-webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,.07);
 	color: #fff;
