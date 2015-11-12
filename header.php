@@ -37,13 +37,15 @@
 <body <?php body_class(); ?>>
 
 	<nav id="nav-wrap" role="navigation">
+		<div class="nav-container">			
 		<ul class="top-nav">
 			<li class="current"><a href="http://giftstarter.com">GiftStarter</a></li>
 			<li><a class="rollover giving" href="http://blog.giftstarter.com">Giving</a></li>
 			<li rel="open"><a class="rollover open" href="http://blog.giftstarter.com/open">Open</a></li>
-			<li rel="i/o"><a class="rollover i/o" href="http://blog.giftstarter.com/io">I/O</a></li>
+			<li rel="io"><a class="rollover io" href="http://blog.giftstarter.com/io">I/O</a></li>
 			<li rel="joy" class="hidden"><a class="rollover joy">Joy</a></li>
 		</ul>
+		</div>
 		<form class="search-nav-form" role="search" method="get" action="http://blog.giftstarter.com">
   			<input class="search-nav-field" type="search" placeholder="Search" value="" name="s" title="Search:">
   			<input class="search-nav-submit" type="submit" value=" ">

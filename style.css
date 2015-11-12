@@ -451,11 +451,15 @@ big {
 	width: 100%;
 }
 
-.top-nav {
+.nav-container {
 	margin: 0 auto;
 	max-width: 750px;
-	padding: 0;
-	text-align: justify;
+}
+
+.top-nav {
+	max-width: 65%;
+    padding: 0;
+    text-align: justify;
 }
 
 .top-nav:after { /* used to justify nav items */
@@ -515,7 +519,7 @@ big {
 	border-color: #A333C8;
 }
 
-.top-nav li[rel="i/o"] {
+.top-nav li[rel="io"] {
 	border-color: #DB2828;
 }
 
@@ -591,6 +595,8 @@ a.rollover.joy:after {
 	.top-nav li.current {
 		padding-bottom: 2px;
 	}
+	
+	a.rollover.joy {display:none;}
 
 }
 
@@ -614,12 +620,12 @@ a.rollover.joy:after {
 	color: #DB2828;
 }
 
-.site-header.open:before {
+.site-header.Open:before {
 	color: #A333C8;
 	content: "☯ ";
 }
 
-.site-header.i/o:before {
+.site-header.I/0:before {
 	color: #DB2828;
 	content: "ƒ ";
 }
@@ -696,7 +702,7 @@ a.rollover.joy:after {
 -----------------------------*/
 .search-nav-form {
     position: absolute;
-    right: 0;
+    right: 16rem;
     top: 0;
     height: 50px;
     line-height: 60px;
