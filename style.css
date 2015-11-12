@@ -570,7 +570,7 @@ a.rollover.open:after {
 	content: "Transparency";
 }
 
-a.rolover.io:after {
+a.rollover.io:after {
 	content: "Engineering";
 }
 
@@ -617,7 +617,11 @@ a.rollover.joy:after {
     top: 10px;
     -webkit-transition: opacity 200ms ease, left 200ms ease-in-out;
     transition: opacity 200ms ease, left 200ms ease-in-out;
-	color: #DB2828;
+}
+
+.site-header.Giving:before {
+    color: #009c95;
+	content: "♥ ";
 }
 
 .site-header.Open:before {
@@ -625,12 +629,13 @@ a.rollover.joy:after {
 	content: "☯ ";
 }
 
-.site-header.I/0:before {
+/* i/o */
+.site-header:before {
 	color: #DB2828;
 	content: "ƒ ";
 }
 
-.site-header.joy:before {
+.site-header.Joy:before {
 	color: #FBBD08;
 	content: "☺ ";
 }
