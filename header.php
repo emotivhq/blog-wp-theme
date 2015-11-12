@@ -40,8 +40,8 @@
 		<ul class="top-nav">
 			<li class="current"><a href="http://giftstarter.com">GiftStarter</a></li>
 			<li><a class="rollover giving" href="http://blog.giftstarter.com">Giving</a></li>
-			<li rel="open"><a class="rollover open" href="http://open.giftstarter.com">Open</a></li>
-			<li rel="io"><a class="rollover io" href="http://io.giftstarter.com">I/O</a></li>
+			<li rel="open"><a class="rollover open" href="http://blog.giftstarter.com/open">Open</a></li>
+			<li rel="io"><a class="rollover io" href="http://blog.giftstarter.com/io">I/O</a></li>
 			<li rel="joy"><a class="rollover joy hidden" >Joy</a></li>
 		</ul>
 		<form class="search-nav-form" role="search" method="get" action="http://blog.giftstarter.com">
@@ -52,7 +52,7 @@
 
 <div id="page" class="hfeed site">
 
-	<header id="masthead" class="site-header" role="banner">
+	<header id="masthead" class="site-header" role="banner <?php bloginfo( 'name' ); ?>">
 		<div class="site-branding">
 			<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home <?php bloginfo( 'name' ); ?>" class="site-title"><span class="logotype"></span><?php bloginfo( 'name' ); ?></a>
 			<div class="tagline"><?php bloginfo( 'description' ); ?></div>

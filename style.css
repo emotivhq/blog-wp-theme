@@ -512,7 +512,7 @@ big {
 	border-color: #A333C8;
 }
 
-.top-nav li[rel="io"] {
+.top-nav li[rel="i/o"] {
 	border-color: #DB2828;
 }
 
@@ -611,15 +611,15 @@ a.joy:after {
 	color: #DB2828;
 }
 
-body.open #masthead:before {
+#masthead[role="banner open"]:before {
 	color: #A333C8;
 	content: "☯ ";
 }
-body.io #masthead:before {
+#masthead[role="banner i/o"]:before {
 	color: #DB2828;
 	content: "ƒ ";
 }
-body.joy #masthead:before {
+#masthead[role="banner joy"]:before {
 	color: #FBBD08;
 	content: "☺ ";
 }
@@ -804,7 +804,7 @@ a[rel="home open"]:hover {
 	color: #A333C8;
 }
 
-a[rel="home io"]:hover {
+a[rel="home i/o"]:hover {
 	color: #DB2828;
 }
 
@@ -1178,13 +1178,13 @@ a[rel="tag"] {
 	width: 40px;
 }
 
-body.open .newsletter-cta-button {
+.newsletter-cta-button[rel="open"] {
 	background: #A333C8;
 }
-body.io .newsletter-cta-button {
+.newsletter-cta-button[rel="i/o"] {
 	background: #DB2828;
 }
-body.joy .newsletter-cta-button {
+.newsletter-cta-button[rel="joy"] {
 	background: #FBBD08;
 }
 
@@ -1415,15 +1415,15 @@ body.joy .newsletter-cta-button {
 	text-shadow: none;
 }
 
-body.open .footer-signup {
+.footer-signup[rel="open"] {
 	background: #A333C8;
 }
 
-body.io .footer-signup {
+.footer-signup[rel="i/o"] {
 	background: #DB2828;
 }
 
-body.joy .footer-signup {
+.footer-signup[rel="joy"] {
 	background: #FBBD08;
 }
 
@@ -1437,15 +1437,15 @@ body.joy .footer-signup {
 	text-decoration: none;
 }
 
-body.open .footer-signup:hover {
+.footer-signup[rel="open"]:hover {
 	background: #77348d;
 }
 
-body.io .footer-signup:hover {
+.footer-signup[rel="i/o"]:hover {
 	background: #b42d2d;
 }
 
-body.io .footer-signup:hover {
+.footer-signup[rel="joy"]:hover {
 	background: #b42d2d;
 }
 
