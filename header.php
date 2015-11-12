@@ -34,7 +34,7 @@
 
 </head>
 
-<body <?php body_class(); ?> <?php body_class( bloginfo( 'name' ) ); ?>>
+<body <?php body_class(); ?>>
 
 	<nav id="nav-wrap" role="navigation">
 		<ul class="top-nav">

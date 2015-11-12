@@ -176,3 +176,13 @@ function extra_contact_info($contactmethods) {
     return $contactmethods;
 }
 add_filter('user_contactmethods', 'extra_contact_info');
+
+/**
+ * Load custom body classes.
+ */
+function giftstarter_body_class($classes) {
+    $classes[] = bloginfo( 'name' );
+    return $classes;
+}
+
+add_filter('body_class', 'giftstarter_body_class');
