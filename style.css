@@ -555,19 +555,19 @@ a.rollover:hover:after {
 	opacity: 1;
 }
 
-a.giving:after {
+a.rollover.giving:after {
 	content: "Group Gifting";
 }
 
-a.open:after {
+a.rollover.open:after {
 	content: "Transparency";
 }
 
-a.io:after {
+a.rolover.io:after {
 	content: "Engineering";
 }
 
-a.joy:after {
+a.rollover.joy:after {
 	content: "Coming Soon";
 	font-style: italic;
 }
