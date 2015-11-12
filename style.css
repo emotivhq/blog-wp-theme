@@ -611,15 +611,15 @@ a.joy:after {
 	color: #DB2828;
 }
 
-#masthead[role="banner open"]:before {
+header[role="banner open"]:before {
 	color: #A333C8;
 	content: "☯ ";
 }
-#masthead[role="banner i/o"]:before {
+header[role="banner i/o"]:before {
 	color: #DB2828;
 	content: "ƒ ";
 }
-#masthead[role="banner joy"]:before {
+header[role="banner joy"]:before {
 	color: #FBBD08;
 	content: "☺ ";
 }

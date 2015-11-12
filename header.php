@@ -41,7 +41,7 @@
 			<li class="current"><a href="http://giftstarter.com">GiftStarter</a></li>
 			<li><a class="rollover giving" href="http://blog.giftstarter.com">Giving</a></li>
 			<li rel="open"><a class="rollover open" href="http://blog.giftstarter.com/open">Open</a></li>
-			<li rel="io"><a class="rollover io" href="http://blog.giftstarter.com/io">I/O</a></li>
+			<li rel="i/o"><a class="rollover i/o" href="http://blog.giftstarter.com/io">I/O</a></li>
 			<li rel="joy"><a class="rollover joy hidden" >Joy</a></li>
 		</ul>
 		<form class="search-nav-form" role="search" method="get" action="http://blog.giftstarter.com">
