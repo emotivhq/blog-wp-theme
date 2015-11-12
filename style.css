@@ -1,7 +1,7 @@
 /*
 
 Theme Name: GiftStarter
-Version: 0.0.29
+Version: 0.0.28
 Author: Emotiv Labs, Inc.
 Designer: Joel Serino
 Author URI: http://giftstarter.com/about/
@@ -611,15 +611,17 @@ a.joy:after {
 	color: #DB2828;
 }
 
-.site.open #masthead:before {
+div.open #masthead:before {
 	color: #A333C8;
 	content: "☯ ";
 }
-.site.i/o #masthead:before {
+
+div.i/o #masthead:before {
 	color: #DB2828;
 	content: "ƒ ";
 }
-.site.joy #masthead:before {
+
+div.joy #masthead:before {
 	color: #FBBD08;
 	content: "☺ ";
 }
