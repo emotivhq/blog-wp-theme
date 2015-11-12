@@ -223,6 +223,7 @@ a:active {
 
 .joy.button:hover {
 	background: #e1ab0e;
+	text-decoration: none;
 }
 
 .io.button {
@@ -232,6 +233,7 @@ a:active {
 
 .io.button:hover {
 	background: #b42d2d;
+	text-decoration: none;
 }
 
 .open.button {
@@ -241,6 +243,7 @@ a:active {
 
 .open.button:hover {
 	background: #77348d;
+	text-decoration: none;
 }
 
 .button.large {
@@ -595,11 +598,11 @@ a.rollover.joy:after {
 	06.0 - Module - Blog Header
 -----------------------------*/
 
-#masthead {
+.site-header {
 	margin: 5% 0 6%;
 	position: relative;
 }
-#masthead:before {
+.site-header:before {
     content: "♥ ";
     font-size: 18px;
     opacity: 0;
@@ -611,22 +614,22 @@ a.rollover.joy:after {
 	color: #DB2828;
 }
 
-div.open #masthead:before {
+.site-header.open:before {
 	color: #A333C8;
 	content: "☯ ";
 }
 
-div.i/o #masthead:before {
+.site-header.i/o:before {
 	color: #DB2828;
 	content: "ƒ ";
 }
 
-div.joy #masthead:before {
+.site-header.joy:before {
 	color: #FBBD08;
 	content: "☺ ";
 }
 
-#masthead:hover:before {
+.site-header:hover:before {
     left: -30px;
     opacity: 1;
 }
@@ -675,14 +678,14 @@ div.joy #masthead:before {
 
 @media only screen and (max-width: 780px) {
 
-  #masthead { margin: 5% 1rem 6% 1rem; }
+  .site-header { margin: 5% 1rem 6% 1rem; }
 	.tagline { max-width: 280px; }
 
 }
 
 @media only screen and (max-width: 500px) {
 
-  #masthead { text-align: center; }
+  .site-header { text-align: center; }
   .tagline { max-width: 100%; }
   .header-sign-up { display: none; }
 
@@ -729,6 +732,12 @@ div.joy #masthead:before {
     color: white;
     margin-right: 10px;
     padding: 0;
+}
+
+@media only screen and (max-width: 500px) {
+
+  .search-nav-form {right: 1000px;}
+
 }
 
 /*-----------------------------
@@ -1329,6 +1338,14 @@ a[rel="tag"] {
 	position: relative;
 	top: 22px;
 	width: 250px;
+}
+
+.main-heading-cta {
+	text-align: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
 }
 
 @media only screen and (max-width: 450px) {
