@@ -17,12 +17,12 @@ GiftStarter uses Underscores http://underscores.me/, (C) 2012-2014 Automattic, I
 Set the name of the blog (i.e. social, open, etc.) and the tagline by going to Appearance > Customize in the WP admin sidebar. Make sure to capitalize the title (the css will make it lowercase for presentation, but will show up title case in the tab or when shared.)
 
 ##Security measures
--Hide meta name='generator'
-  -in your functions.php file put this line <?php remove_action('wp_head', 'wp_generator'); ?>
--Change wp_ prefix in database
-  -Change wp-config.php file
-  -Change prefix in PhpMyAdmin file
-  -Change the database prefixes from wp_ to new_prefix_usermeta and new_prefix_options
+- Hide meta name='generator'
+  - in your functions.php file put this line <?php remove_action('wp_head', 'wp_generator'); ?>
+- Change wp_ prefix in database
+  - Change wp-config.php file
+  - Change prefix in PhpMyAdmin file
+  - Change the database prefixes from wp_ to new_prefix_usermeta and new_prefix_options
 -Remove remote editing option
   - <?php add_filter('xmlrpc_enabled', '__return_false');
     remove_action('wp_head', 'rsd_link');
