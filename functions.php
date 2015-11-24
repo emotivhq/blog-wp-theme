@@ -137,6 +137,14 @@ function giftstarter_scripts() {
 add_action( 'wp_enqueue_scripts', 'giftstarter_scripts' );
 
 /**
+ * Security upgrades
+ */
+remove_action('wp_head', 'wp_generator');
+add_filter('xmlrpc_enabled', '__return_false'); 
+remove_action('wp_head', 'rsd_link'); 
+remove_action('wp_head', 'wlwmanifest_link');
+
+/**
  * Implement the Custom Header feature.
  */
 //require get_template_directory() . '/inc/custom-header.php';
