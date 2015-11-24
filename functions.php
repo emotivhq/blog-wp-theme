@@ -87,6 +87,27 @@ function giftstarter_widgets_init() {
 		'before_widget' => '<aside id="%1$s" class="widget %2$s">',
 		'after_widget'  => '</aside>'
 	) );
+	register_sidebar( array(
+		'name'          => __( 'Footer Newsletter Signup', 'giftstarter' ),
+		'id'            => 'sidebar-3',
+		'description'   => '',
+		'before_widget' => '<aside id="%1$s" class="widget %2$s">',
+		'after_widget'  => '</aside>'
+	) );
+	register_sidebar( array(
+		'name'          => __( 'Footer CTA', 'giftstarter' ),
+		'id'            => 'sidebar-4',
+		'description'   => '',
+		'before_widget' => '<aside id="%1$s" class="widget %2$s">',
+		'after_widget'  => '</aside>'
+	) );
+	register_sidebar( array(
+		'name'          => __( 'Footer Colophon', 'giftstarter' ),
+		'id'            => 'sidebar-5',
+		'description'   => '',
+		'before_widget' => '<aside id="%1$s" class="widget %2$s">',
+		'after_widget'  => '</aside>'
+	) );
 }
 add_action( 'widgets_init', 'giftstarter_widgets_init' );
 

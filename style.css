@@ -587,6 +587,8 @@ a.rollover.joy:after {
 
 @media only screen and (max-width: 500px) {
 
+   .top-nav {max-width: 90%;}
+	
   .top-nav li:first-child {
 		display: none;
 	}
@@ -728,7 +730,7 @@ a.rollover.joy:after {
 }
 
 .search-nav-field:focus, .search-nav-field:active {
-    width: 200px;
+    width: 180px;
 }
 
 .search-nav-submit {
